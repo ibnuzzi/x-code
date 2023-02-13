@@ -170,14 +170,15 @@ button:focus {
   }
 }
 .section {
-  margin-bottom: 115px;
+  margin-bottom: 10;
 }
 .inner-section {
   margin-bottom: 100px;
 }
 .section-heading {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
+  margin-top: 60px;
 }
 .section-btn-50 {
   text-align: center;
@@ -204,7 +205,7 @@ button:focus {
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .section {
-    margin-bottom: 75px;
+    margin-bottom: 10px;
   }
   .inner-section {
     margin-bottom: 80px;
@@ -3881,7 +3882,7 @@ tbody tr td:last-child {
 .navbar-info i {
   font-size: 30px;
   margin-right: 15px;
-  color: var(--);
+  color: var(--instagram);
 }
 .navbar-info p small {
   font-size: 14px;
