@@ -175,7 +175,6 @@ button:focus {
 .inner-section {
   margin-bottom: 100px;
 }
-
 .section-heading {
   text-align: center;
   margin-bottom: 15px;
@@ -1181,7 +1180,7 @@ tbody tr td:last-child {
 }
 .table-shop .product-add {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .table-shop .action-plus i,
 .table-shop .action-minus i {
@@ -1264,7 +1263,7 @@ tbody tr td:last-child {
 }
 .modal-close:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .modal-form {
   width: 400px;
@@ -1351,9 +1350,9 @@ tbody tr td:last-child {
   margin-bottom: 10px;
   text-align: center;
   display: inline-block;
-  color: var(--primary);
+  color: var(--instagram);
   background: var(--white);
-  border: 2px dotted var(--primary);
+  border: 2px dotted var(--instagram);
 }
 .order-track-item span {
   font-weight: 500;
@@ -1363,14 +1362,14 @@ tbody tr td:last-child {
   text-transform: capitalize;
 }
 .order-track-item.active::before {
-  background: var(--primary);
+  background: var(--instagram);
 }
 .order-track-item.active i {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .order-track-item.active span {
-  color: var(--primary);
+  color: var(--instagram);
 }
 @media (max-width: 575px) {
   .order-track {
@@ -1390,7 +1389,7 @@ tbody tr td:last-child {
   list-style: decimal;
 }
 .nav-pills .nav-link.active {
-  color: var(--primary);
+  color: var(--instagram);
   background: transparent;
 }
 @media (max-width: 991px) {
@@ -1507,7 +1506,7 @@ tbody tr td:last-child {
   color: var(--white);
   font-weight: 400;
   text-transform: capitalize;
-  text-shadow: var(--primary-tshadow);
+  text-shadow: var(--instagram-tshadow);
 }
 .suggest-card h5 span {
   display: block;
@@ -1638,7 +1637,7 @@ tbody tr td:last-child {
   border-radius: 8px;
   color: var(--white);
   background: var(--red);
-  text-shadow: var(--primary-tshadow);
+  text-shadow: var(--instagram-tshadow);
   -webkit-box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.12);
   box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.12);
 }
@@ -1674,7 +1673,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .product-rating a:hover {
-  color: var(--primary);
+  color: var(--instagram);
   text-decoration: underline;
 }
 .product-rating .active {
@@ -1693,7 +1692,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .product-name a:hover {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .product-price {
   display: -webkit-box;
@@ -1715,7 +1714,7 @@ tbody tr td:last-child {
   margin-right: 8px;
 }
 .product-price span {
-  color: var(--primary);
+  color: var(--instagram);
   white-space: nowrap;
 }
 .product-price span small {
@@ -1738,7 +1737,7 @@ tbody tr td:last-child {
 }
 .product-disable::before {
   position: absolute;
-  content: "Out of Stock";
+  content: "Expired";
   top: 40%;
   left: 50%;
   z-index: 2;
@@ -1748,7 +1747,7 @@ tbody tr td:last-child {
   padding: 15px 0px;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: var(--primary-tshadow);
+  text-shadow: var(--instagram-tshadow);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: var(--white);
@@ -1899,7 +1898,7 @@ tbody tr td:last-child {
   border-radius: 8px;
   color: var(--white);
   background: var(--red);
-  text-shadow: var(-primary-tshadow);
+  text-shadow: var(-instagram-tshadow);
   -webkit-box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.12);
   box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.12);
 }
@@ -1936,7 +1935,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .feature-rating a:hover {
-  color: var(--primary);
+  color: var(--instagram);
   text-decoration: underline;
 }
 .feature-rating .active {
@@ -1955,7 +1954,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .feature-name a:hover {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .feature-price {
   display: -webkit-box;
@@ -1977,7 +1976,7 @@ tbody tr td:last-child {
   margin-right: 8px;
 }
 .feature-price span {
-  color: var(--primary);
+  color: var(--instagram);
   white-space: nowrap;
 }
 .feature-price span small {
@@ -2045,7 +2044,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .product-standard:hover {
-  border-color: var(--primary);
+  border-color: var(--instagram);
   -webkit-box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
 }
@@ -2055,7 +2054,7 @@ tbody tr td:last-child {
 }
 .product-standard:hover .standard-add {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .standard-media {
   position: relative;
@@ -2122,8 +2121,8 @@ tbody tr td:last-child {
   text-align: center;
   border-radius: 8px;
   color: var(--white);
-  background: var(--primary);
-  text-shadow: var(-primary-tshadow);
+  background: var(--instagram);
+  text-shadow: var(-instagram-tshadow);
   -webkit-box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.12);
   box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.12);
 }
@@ -2146,7 +2145,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .standard-name a:hover {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .standard-price {
   display: -webkit-box;
@@ -2168,7 +2167,7 @@ tbody tr td:last-child {
   margin-right: 12px;
 }
 .standard-price span {
-  color: var(--primary);
+  color: var(--instagram);
   white-space: nowrap;
 }
 .standard-price span small {
@@ -2201,7 +2200,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .standard-rating a:hover {
-  color: var(--primary);
+  color: var(--instagram);
   text-decoration: underline;
 }
 .standard-rating .active {
@@ -2223,7 +2222,7 @@ tbody tr td:last-child {
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .standard-action-group .product-add {
   font-size: 14px;
@@ -2258,12 +2257,12 @@ tbody tr td:last-child {
   text-transform: uppercase;
 }
 .standard-wish {
-  color: var(--primary);
+  color: var(--instagram);
   background: var(--border);
 }
 .standard-wish.active {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .standard-action {
   display: -webkit-box;
@@ -2288,7 +2287,7 @@ tbody tr td:last-child {
   display: inline-block;
   color: var(--text);
   background: var(--border);
-  text-shadow: var(--primary-tshadow);
+  text-shadow: var(--instagram-tshadow);
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -2298,7 +2297,7 @@ tbody tr td:last-child {
 .standard-action button i:hover,
 .standard-action a i:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .standard-action input {
   width: 100%;
@@ -2310,8 +2309,8 @@ tbody tr td:last-child {
   letter-spacing: 0.3px;
   text-align: center;
   color: var(--white);
-  background: var(--primary);
-  text-shadow: var(--primary-tshadow);
+  background: var(--instagram);
+  text-shadow: var(--instagram-tshadow);
 }
 @media (max-width: 575px) {
   .product-standard {
@@ -2496,7 +2495,7 @@ tbody tr td:last-child {
   border-radius: 50%;
   text-align: center;
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -2504,7 +2503,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .category-overlay a i:hover {
-  color: var(--primary);
+  color: var(--instagram);
   background: var(--white);
 }
 .category-meta {
@@ -2843,7 +2842,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .blog-btn:hover {
-  color: var(--primary);
+  color: var(--instagram);
   text-decoration: underline;
 }
 .blog-btn:hover i {
@@ -2899,7 +2898,7 @@ tbody tr td:last-child {
 .offer-div span {
   font-size: 15px;
   font-weight: 500;
-  color: var(--primary);
+  color: var(--instagram);
   text-transform: capitalize;
 }
 @media (min-width: 351px) and (max-width: 575px) {
@@ -2939,7 +2938,7 @@ tbody tr td:last-child {
   left: 0px;
   width: 50px;
   height: 2px;
-  background: var(--primary);
+  background: var(--instagram);
 }
 .account-title h4 {
   text-transform: capitalize;
@@ -2954,9 +2953,9 @@ tbody tr td:last-child {
   padding: 5px 15px;
   white-space: nowrap;
   text-transform: capitalize;
-  color: var(--primary);
+  color: var(--instagram);
   background: var(--green-chalk);
-  text-shadow: var(--primary-tshadow);
+  text-shadow: var(--instagram-tshadow);
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -2966,7 +2965,7 @@ tbody tr td:last-child {
 .account-title button:hover,
 .account-title a:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 @media (max-width: 575px) {
   .account-card {
@@ -3032,9 +3031,9 @@ tbody tr td:last-child {
   text-align: center;
   display: inline-block;
   background: var(--white);
-  text-shadow: var(--primary-tshadow);
-  -webkit-box-shadow: var(--primary-bshadow);
-  box-shadow: var(--primary-bshadow);
+  text-shadow: var(--instagram-tshadow);
+  -webkit-box-shadow: var(--instagram-bshadow);
+  box-shadow: var(--instagram-bshadow);
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -3057,7 +3056,7 @@ tbody tr td:last-child {
 }
 .profile-card.active {
   background: var(--green-chalk);
-  border-color: var(--primary);
+  border-color: var(--instagram);
 }
 .payment-card {
   padding: 25px;
@@ -3113,9 +3112,9 @@ tbody tr td:last-child {
   text-align: center;
   display: inline-block;
   background: var(--white);
-  text-shadow: var(--primary-tshadow);
-  -webkit-box-shadow: var(--primary-bshadow);
-  box-shadow: var(--primary-bshadow);
+  text-shadow: var(--instagram-tshadow);
+  -webkit-box-shadow: var(--instagram-bshadow);
+  box-shadow: var(--instagram-bshadow);
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -3131,7 +3130,7 @@ tbody tr td:last-child {
 }
 .payment-card.active {
   background: var(--green-chalk);
-  border-color: var(--primary);
+  border-color: var(--instagram);
 }
 @media (max-width: 575px) {
   .payment-card p span {
@@ -3965,7 +3964,7 @@ tbody tr td:last-child {
   display: inline-block;
   color: var(--text);
   background: var(--white);
-  text-shadow: var(--primary-tshadow);
+  text-shadow: var(--instagram-tshadow);
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -3974,7 +3973,7 @@ tbody tr td:last-child {
 }
 .nav-close i:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .nav-content {
   padding: 0px 18px;
@@ -4004,7 +4003,7 @@ tbody tr td:last-child {
 .nav-user {
   margin-bottom: 10px;
   border-radius: 50%;
-  border: 2px solid var(--primary);
+  border: 2px solid var(--instagram);
 }
 .nav-user img {
   width: 85px;
@@ -4025,7 +4024,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .nav-name a:hover {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .nav-select-group {
   display: -webkit-box;
@@ -4083,7 +4082,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .nav-link:hover {
-  color: var(--primary);
+  color: var(--instagram);
   background: var(--chalk);
 }
 .nav-link::before {
@@ -4094,7 +4093,7 @@ tbody tr td:last-child {
   margin-right: 12px;
 }
 .nav-link.active {
-  color: var(--primary);
+  color: var(--instagram);
   background: var(--green-chalk);
 }
 .nav-info-group {
@@ -4122,7 +4121,7 @@ tbody tr td:last-child {
 .nav-info i {
   font-size: 30px;
   margin-right: 15px;
-  color: var(--primary);
+  color: var(--instagram);
 }
 .nav-info p small {
   font-size: 14px;
@@ -4143,7 +4142,7 @@ tbody tr td:last-child {
   color: var(--gray);
 }
 .nav-footer p a {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .cart-sidebar {
   position: fixed;
@@ -4184,11 +4183,11 @@ tbody tr td:last-child {
 .cart-total i {
   font-size: 20px;
   margin-right: 8px;
-  color: var(--primary);
+  color: var(--instagram);
 }
 .cart-total span {
   font-weight: 500;
-  color: var(--primary);
+  color: var(--instagram);
   text-transform: capitalize;
 }
 .cart-close {
@@ -4208,7 +4207,7 @@ tbody tr td:last-child {
   display: inline-block;
   color: var(--text);
   background: var(--white);
-  text-shadow: var(--primary-tshadow);
+  text-shadow: var(--instagram-tshadow);
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -4217,7 +4216,7 @@ tbody tr td:last-child {
 }
 .cart-close i:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .cart-list {
   height: 100%;
@@ -4339,12 +4338,12 @@ tbody tr td:last-child {
   height: 30px;
   font-size: 14px;
   border-radius: 5px;
-  color: var(--primary);
+  color: var(--instagram);
   background: var(--chalk);
 }
 .cart-action-group h6 {
   font-weight: 500;
-  color: var(--primary);
+  color: var(--instagram);
 }
 .cart-footer {
   padding: 20px 15px 0px;
@@ -4355,8 +4354,8 @@ tbody tr td:last-child {
 .coupon-btn {
   font-weight: 500;
   margin-bottom: 20px;
-  color: var(--primary);
-  text-shadow: var(--primary-tshadow);
+  color: var(--instagram);
+  text-shadow: var(--instagram-tshadow);
 }
 .coupon-btn:hover {
   text-decoration: underline;
@@ -4385,7 +4384,7 @@ tbody tr td:last-child {
   display: none;
 }
 .coupon-form:focus-within {
-  border-color: var(--primary);
+  border-color: var(--instagram);
 }
 .coupon-form input {
   width: 100%;
@@ -4402,12 +4401,12 @@ tbody tr td:last-child {
   text-align: center;
   text-transform: uppercase;
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .cart-checkout-btn {
   padding: 10px 0px;
   border-radius: 8px;
-  background: var(--primary);
+  background: var(--instagram);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4514,7 +4513,7 @@ tbody tr td:last-child {
   justify-content: flex-start;
 }
 .category-title {
-  color: var(--primary);
+  color: var(--instagram);
   text-transform: capitalize;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4546,7 +4545,7 @@ tbody tr td:last-child {
   display: inline-block;
   color: var(--text);
   background: var(--white);
-  text-shadow: var(--primary-tshadow);
+  text-shadow: var(--instagram-tshadow);
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -4555,7 +4554,7 @@ tbody tr td:last-child {
 }
 .category-close i:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .category-list {
   width: 100%;
@@ -4602,7 +4601,7 @@ tbody tr td:last-child {
   color: var(--gray);
 }
 .category-footer p a {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .mobile-menu {
   position: fixed;
@@ -4766,7 +4765,7 @@ tbody tr td:last-child {
   color: var(--heading);
 }
 .view-name a:hover {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .view-meta {
   margin-bottom: 12px;
@@ -4793,7 +4792,7 @@ tbody tr td:last-child {
 }
 .view-meta a:hover {
   text-decoration: underline;
-  color: var(--primary);
+  color: var(--instagram);
 }
 .view-rating {
   display: -webkit-box;
@@ -4824,7 +4823,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .view-rating a:hover {
-  color: var(--primary);
+  color: var(--instagram);
   text-decoration: underline;
 }
 .view-rating .active {
@@ -4838,7 +4837,7 @@ tbody tr td:last-child {
   margin-right: 25px;
 }
 .view-price span {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .view-price span small {
   font-size: 14px;
@@ -4903,7 +4902,7 @@ tbody tr td:last-child {
 }
 .view-tag-list li a:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .view-share-list {
   display: -webkit-box;
@@ -4936,7 +4935,7 @@ tbody tr td:last-child {
 }
 .view-share-list li a:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .view-add-group {
   margin: 45px 0px 15px;
@@ -4948,7 +4947,7 @@ tbody tr td:last-child {
   letter-spacing: 0.3px;
   text-transform: uppercase;
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .view-action-group {
   display: -ms-grid;
@@ -4990,7 +4989,7 @@ tbody tr td:last-child {
 }
 .view-wish.active {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .preview-slider {
   margin-bottom: 20px;
@@ -5284,7 +5283,7 @@ tbody tr td:last-child {
 }
 .footer-social li a:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .footer-title {
   margin-bottom: 25px;
@@ -5337,7 +5336,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .footer-links ul li a:hover {
-  color: var(--primary);
+  color: var(--instagram);
   text-decoration: underline;
 }
 .footer-app {
@@ -5447,7 +5446,7 @@ tbody tr td:last-child {
   left: 0px;
   width: 50px;
   height: 2px;
-  background: var(--primary);
+  background: var(--instagram);
 }
 .blog-widget-form {
   position: relative;
@@ -5466,7 +5465,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .blog-widget-form input:focus-within {
-  border-color: var(--primary);
+  border-color: var(--instagram);
 }
 .blog-widget-form button {
   position: absolute;
@@ -5477,7 +5476,7 @@ tbody tr td:last-child {
   line-height: 45px;
   text-align: center;
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
   border-radius: 8px 0px 0px 8px;
 }
 .blog-widget-feed li {
@@ -5516,7 +5515,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .blog-widget-text a:hover {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .blog-widget-text span {
   display: block;
@@ -5536,10 +5535,10 @@ tbody tr td:last-child {
   border: none;
 }
 .blog-widget-category li:hover a {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .blog-widget-category li:hover a span {
-  background: var(--primary);
+  background: var(--instagram);
 }
 .blog-widget-category li a {
   width: 100%;
@@ -5587,7 +5586,7 @@ tbody tr td:last-child {
 }
 .blog-widget-tag li a:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .blog-widget-social li {
   display: inline-block;
@@ -5609,7 +5608,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .blog-widget-social li a:hover {
-  background: var(--primary);
+  background: var(--instagram);
 }
 @media (max-width: 575px) {
   .blog-widget-social li {
@@ -5705,7 +5704,7 @@ tbody tr td:last-child {
 }
 .shop-filter ul li .active {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .shop-filter p {
   font-size: 15px;
@@ -5783,7 +5782,7 @@ tbody tr td:last-child {
 }
 .shop-widget-btn:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .shop-widget-btn i {
   margin-right: 8px;
@@ -5831,7 +5830,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .shop-widget-list li:hover {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .shop-widget-list li:last-child {
   margin-bottom: 0px;
@@ -5894,7 +5893,7 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .shop-widget-search:focus-within {
-  border-color: var(--primary);
+  border-color: var(--instagram);
 }
 .shop-widget-scroll {
   height: 279px;
@@ -6005,11 +6004,11 @@ tbody tr td:last-child {
   background: transparent;
 }
 .filter-action a i:hover {
-  color: var(--primary);
+  color: var(--instagram);
 }
 .filter-action .active i {
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
 }
 .filter-action .active i:hover {
   color: var(--white);
