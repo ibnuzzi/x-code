@@ -81,7 +81,7 @@ body {
   scroll-behavior: smooth;
 }
 body {
-  color: var(--text);
+  color: black;
   background: var(--body);
   font-size: var(--bodysize);
   font-family: var(--pfamily);
@@ -390,7 +390,7 @@ button:focus {
   right: 0px;
   font-size: 15px;
   line-height: 15px;
-  color: var(--text);
+  color: black;
   font-family: IcoFont;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -454,7 +454,7 @@ button:focus {
   line-height: 18px;
   border-radius: 8px;
   padding: 10px 15px 10px 35px;
-  color: var(--text);
+  color: black;
   background: var(--white);
   position: relative;
   white-space: nowrap;
@@ -527,7 +527,7 @@ button:focus {
   line-height: 18px;
   border-radius: 8px;
   padding: 8px 15px;
-  color: var(--text);
+  color: black;
   background: var(--white);
   white-space: nowrap;
   text-transform: capitalize;
@@ -3510,7 +3510,7 @@ tbody tr td:last-child {
   padding: 15px 0px;
 }
 .header-part.active .header-widget:hover i {
-  background: var(--instagram);
+  background: var(--white);
 }
 .header-part.active .header-widget sup {
   border-color: var(--white);
