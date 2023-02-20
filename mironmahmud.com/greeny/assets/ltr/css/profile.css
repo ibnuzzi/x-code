@@ -24,8 +24,9 @@
     border-radius: 8px;
     text-align: center;
     text-transform: capitalize;
-    color: var(--white);
-    background: var(--instagram);
+    color: var(--instagram);
+    font-weight:500;
+    background:#f5d88b;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -34,7 +35,9 @@
 }
 
 .profile-btn a:hover {
-    background: var(--green)
+    background: var(--instagram);
+    color: white;
+    
 }
 
 @media (max-width: 991px) {

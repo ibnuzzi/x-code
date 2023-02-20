@@ -214,8 +214,7 @@ button:focus {
 .alert {
   border: none;
   margin: 0px;
-  padding: 0px 15px;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 .alert-info {
   text-align: center;
@@ -2954,7 +2953,7 @@ tbody tr td:last-child {
   white-space: nowrap;
   text-transform: capitalize;
   color: var(--instagram);
-  background: var(--green-chalk);
+  background: #f5d88b;
   text-shadow: var(--instagram-tshadow);
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
@@ -3150,10 +3149,10 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .contact-card:hover {
-  background: var(--primary);
+  background: var(--instagram);
 }
 .contact-card:hover i {
-  color: var(--primary);
+  color: var(--instagram);
   background: var(--white);
 }
 .contact-card:hover h4,
@@ -3171,7 +3170,7 @@ tbody tr td:last-child {
   text-align: center;
   display: inline-block;
   color: var(--white);
-  background: var(--primary);
+  background: var(--instagram);
   text-shadow: var(--primary-tshadow);
   -webkit-box-shadow: var(--primary-bshadow);
   box-shadow: var(--primary-bshadow);
@@ -3213,10 +3212,10 @@ tbody tr td:last-child {
   -o-transition: all linear 0.3s;
 }
 .contact-card.active {
-  background: var(--primary);
+  background: var(--instagram);
 }
 .contact-card.active i {
-  color: var(--primary);
+  color: var(--instagram);
   background: var(--white);
 }
 .contact-card.active h4,
